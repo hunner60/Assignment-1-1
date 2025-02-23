@@ -1,4 +1,5 @@
-run = "run = \"python3 main.py\""
+
+run = "python3 main.py"
 
 [deployment]
-run = ["sh", "-c", "run = \"python3 main.py\""]
+run = ["sh", "-c", "python3 main.py"]
